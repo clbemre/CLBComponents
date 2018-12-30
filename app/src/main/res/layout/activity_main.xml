@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:clb="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:fillViewport="true"
+        android:padding="20dp"
+        tools:context=".MainActivity">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context=".MainActivity">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+            <Button
+                    android:id="@+id/btnSuccessDialog"
+                    android:layout_width="wrap_content"
+                    android:textAllCaps="false"
+                    android:layout_height="wrap_content"
+                    android:text="Success Dialog"/>
+
+            <Button
+                    android:id="@+id/btnWarningDialog"
+                    android:layout_width="wrap_content"
+                    android:textAllCaps="false"
+                    android:layout_height="wrap_content"
+                    android:text="Warning Dialog"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+            <Button
+                    android:id="@+id/btnQuestionDialog"
+                    android:layout_width="wrap_content"
+                    android:textAllCaps="false"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Question Dialog"/>
+
+            <Button
+                    android:id="@+id/btnErrorDialog"
+                    android:layout_width="wrap_content"
+                    android:textAllCaps="false"
+                    android:layout_height="wrap_content"
+                    android:text="Error Dialog"/>
+
+        </LinearLayout>
+
+        <Button
+                android:id="@+id/btnCustomDialog"
+                android:layout_width="wrap_content"
+                android:textAllCaps="false"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:text="Custom Style Dialog"/>
+
+
+        <!--clb:c_card_selectable_foreground="true"-->
+        <clb.com.clbview.views.clblabel.CLBCardLabel
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                clb:c_card_icon_left="@drawable/ic_android_black_24dp"
+                clb:card_l_left_text="Left Text"
+                clb:c_card_icon_right_height="20dp"
+                clb:c_card_icon_right_width="20dp"
+                clb:c_card_icon_right_tint_color="@color/md_green_500"
+                clb:c_card_icon_right="@drawable/ic_android_black_24dp"
+                clb:c_card_icon_left_tint_color="@color/md_red_700"
+                clb:card_l_right_text="Right Text"/>
+
+
+        <clb.com.clbview.views.clbedittext.CLBEditText
+                android:id="@+id/clbEditText"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_sixty_five"
+                android:inputType="text"
+                android:layout_marginTop="10dp"
+                clb:clb_error_message="Error Message"
+                clb:clb_hint="Hint Message"
+                clb:clb_icon_left_clear="@drawable/ic_cross_icon"
+                clb:clb_icon_clear="@drawable/ic_cross_icon"
+                clb:clb_icon_info="@android:drawable/ic_menu_info_details"
+                clb:clb_icon_left="@drawable/ic_android_black_24dp"
+                clb:clb_is_left_clear_icon="true"
+                clb:clb_icon_info_tint_color="@color/md_green_500"
+                clb:clb_is_clear_icon="false"
+                clb:clb_is_info_icon="true"
+                clb:clb_text_max_character="11"/>
+
+        <clb.com.clbview.views.clbedittext.CLBEditTextBF
+                android:id="@+id/clbEditTextBF"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_seventy_five"
+                android:inputType="text"
+                android:background="@color/md_grey_50"
+                android:layout_marginTop="10dp"
+                clb:clb_icon_left="@drawable/ic_android_black_24dp"
+                clb:clb_icon_left_tint_color="@color/md_deep_orange_500"
+                clb:clb_is_left_clear_icon="true"
+                clb:clb_icon_left_clear="@drawable/ic_cross_icon"
+                clb:cbf_floating_text="Floating Text"
+                clb:clb_icon_info="@android:drawable/ic_menu_info_details"
+                clb:clb_error_message="Error Message"
+                clb:clb_hint="Hint Message"
+                clb:clb_is_clear_icon="false"
+                clb:clb_is_info_icon="true"
+                clb:clb_icon_clear="@drawable/ic_cross_icon"/>
+
+        <clb.com.clbview.views.clbspinner.CLBCardSpinner
+                android:id="@+id/clbSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="10dp"
+                clb:c_card_icon_left="@drawable/ic_android_black_24dp"
+                clb:c_card_icon_right="@drawable/ic_arrow_drop_down_black_24dp"
+                clb:c_card_selectable_foreground="true"
+                clb:card_s_error_message="Error Message"
+                clb:card_s_text="Text"/>
+
+        <clb.com.clbview.views.clbbutton.CLBButton
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                clb:corner_radius="10dp"
+                android:textAllCaps="false"
+                clb:ripple_color="@color/md_green_500"
+                android:text="CLB Button"
+                tools:ignore="HardcodedText"/>
+
+        <clb.com.clbview.views.clbbutton.gradient.CLBGradientButton
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                clb:c_corner_radius="10dp"
+                android:layout_marginTop="10dp"
+                android:textAllCaps="false"
+                android:layout_marginBottom="20dp"
+                clb:c_ripple_color="@color/md_blue_500"
+                clb:c_end_color="@color/md_deep_orange_600"
+                android:text="CLB Gradient Button"
+                tools:ignore="HardcodedText"/>
+
+    </LinearLayout>
+</ScrollView>

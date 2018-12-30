@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--###_D_P_###-->
+    <dimen name="dp_one">1dp</dimen>
+    <dimen name="dp_two">2dp</dimen>
+    <dimen name="dp_three">3dp</dimen>
+    <dimen name="dp_four">4dp</dimen>
+    <dimen name="dp_five">5dp</dimen>
+    <dimen name="dp_six">6dp</dimen>
+    <dimen name="dp_seven">7dp</dimen>
+    <dimen name="dp_eight">8dp</dimen>
+    <dimen name="dp_ten">10dp</dimen>
+    <dimen name="dp_twelve">12dp</dimen>
+    <dimen name="dp_fourteen">14dp</dimen>
+    <dimen name="dp_fifteen">15dp</dimen>
+    <dimen name="dp_sixteen">16dp</dimen>
+    <dimen name="dp_twenty">20dp</dimen>
+    <dimen name="dp_twenty_four">24dp</dimen>
+    <dimen name="dp_twenty_five">25dp</dimen>
+    <dimen name="dp_thirty">30dp</dimen>
+    <dimen name="dp_thirty_five">35dp</dimen>
+    <dimen name="dp_thirty_six">36dp</dimen>
+    <dimen name="dp_forty">40dp</dimen>
+    <dimen name="dp_forty_five">45dp</dimen>
+    <dimen name="dp_fifty">50dp</dimen>
+    <dimen name="dp_fifty_five">55dp</dimen>
+    <dimen name="fifty_seven">57dp</dimen>
+    <dimen name="fifty_eight">58dp</dimen>
+    <dimen name="dp_sixty">60dp</dimen>
+    <dimen name="dp_sixty_one">61dp</dimen>
+    <dimen name="dp_sixty_five">65dp</dimen>
+    <dimen name="dp_seventy">70dp</dimen>
+    <dimen name="dp_seventy_five">75dp</dimen>
+    <dimen name="dp_eighty">80dp</dimen>
+    <dimen name="dp_ninety">90dp</dimen>
+    <dimen name="dp_ninety_two">92dp</dimen>
+    <dimen name="dp_ninety_five">95dp</dimen>
+    <dimen name="dp_one_hundred">100dp</dimen>
+    <dimen name="dp_one_hundred_twenty">120dp</dimen>
+    <dimen name="dp_one_hundred_twenty_five">125dp</dimen>
+    <dimen name="dp_one_hundred_thirty">130dp</dimen>
+    <dimen name="dp_one_hundred_thirty_five">135dp</dimen>
+    <dimen name="dp_one_hundred_fifty">150dp</dimen>
+    <dimen name="dp_two_hundred">200dp</dimen>
+
+    <!--###_S_P_###-->
+    <dimen name="sp_ten">10sp</dimen>
+    <dimen name="sp_twelve">12sp</dimen>
+    <dimen name="sp_thirteen">13sp</dimen>
+    <dimen name="sp_fourteen">14sp</dimen>
+    <dimen name="sp_fifteen">15sp</dimen>
+    <dimen name="sp_sixteen">16sp</dimen>
+    <dimen name="sp_seventeen">17sp</dimen>
+    <dimen name="sp_eighteen">18sp</dimen>
+    <dimen name="sp_twenty">20sp</dimen>
+    <dimen name="sp_twenty_four">24sp</dimen>
+    <dimen name="sp_thirty">30sp</dimen>
+
+    <dimen name="sp_text_size_custom_toolbar_title_default">24sp</dimen>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:color="@color/color_ripple_gray"
+    tools:targetApi="lollipop">
+    <item>
+        <shape>
+            <size
+                android:width="1dp"
+                android:height="1dp" />
+            <corners
+                android:topLeftRadius="@dimen/dp_three"
+                android:topRightRadius="@dimen/dp_three" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/background_drawable_shadow_like_card_view" />
+</ripple><!--
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/ripple_gray">
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle">
+            <solid android:color="#000000" />
+            <corners android:radius="3dp" />
+        </shape>
+    </item>
+    <item android:drawable="@drawabackground_drawable_shadow_like_card_viewview" />
+</ripple>-->

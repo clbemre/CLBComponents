@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--CLBButton Start-->
+    <declare-styleable name="CLBButton">
+        <attr name="ripple_color" format="color" />
+        <attr name="corner_radius" format="dimension" />
+        <attr name="gradient_orientation">
+            <enum name="RIGHT_LEFT" value="0" />
+            <enum name="LEFT_RIGHT" value="1" />
+            <enum name="TOP_BOTTOM" value="2" />
+            <enum name="BOTTOM_TOP" value="3" />
+        </attr>
+    </declare-styleable>
+    <!--CLBButton End-->
+
+    <!--CLBGradientButton Start-->
+    <declare-styleable name="CLBGradientButton">
+        <attr name="c_ripple_color" format="color" />
+        <attr name="c_end_color" format="color" />
+        <attr name="c_corner_radius" format="dimension" />
+    </declare-styleable>
+    <!--CLBGradientButton End-->
+
+    <!--CLB COMPONENTS START-->
+    <attr name="c_card_elevation" format="dimension" />
+    <attr name="c_card_background_color" format="color|reference" />
+    <attr name="c_card_corner_radius" format="dimension" />
+    <attr name="c_card_use_compat_padding" format="boolean" />
+    <attr name="c_card_selectable_foreground" format="boolean" />
+
+    <attr name="c_card_icon_left" format="reference" />
+    <attr name="c_card_icon_left_tint_color" format="color|reference" />
+    <attr name="c_card_icon_left_width" format="dimension" />
+    <attr name="c_card_icon_left_height" format="dimension" />
+
+    <attr name="c_card_icon_right" format="reference" />
+    <attr name="c_card_icon_right_tint_color" format="color|reference" />
+    <attr name="c_card_icon_right_width" format="dimension" />
+    <attr name="c_card_icon_right_height" format="dimension" />
+
+    <!--CLB EDITTEXT ATTR START-->
+    <attr name="clb_single_line" format="boolean" />
+    <attr name="clb_hint_text_color" format="color|reference" />
+    <attr name="clb_text_color" format="color|reference" />
+    <attr name="clb_error_color" format="color|reference" />
+    <attr name="clb_success_color" format="color|reference" />
+    <attr name="clb_text_size" format="dimension" />
+    <attr name="clb_hint_size" format="dimension" />
+
+    <attr name="clb_icon_left" format="reference" />
+    <attr name="clb_icon_left_tint_color" format="color|reference" />
+    <attr name="clb_icon_left_width" format="dimension" />
+    <attr name="clb_icon_left_height" format="dimension" />
+
+    <attr name="clb_is_clear_icon" format="boolean" />
+    <attr name="clb_icon_clear" format="reference" />
+    <attr name="clb_icon_clear_tint_color" format="color|reference" />
+    <attr name="clb_icon_clear_width" format="dimension" />
+    <attr name="clb_icon_clear_height" format="dimension" />
+
+    <attr name="clb_is_left_clear_icon" format="boolean" />
+    <attr name="clb_icon_left_clear" format="reference" />
+    <attr name="clb_left_icon_clear_tint_color" format="color|reference" />
+    <attr name="clb_left_icon_clear_width" format="dimension" />
+    <attr name="clb_left_icon_clear_height" format="dimension" />
+
+    <attr name="clb_is_info_icon" format="boolean" />
+    <attr name="clb_icon_info" format="reference" />
+    <attr name="clb_icon_info_tint_color" format="color|reference" />
+    <attr name="clb_icon_info_width" format="dimension" />
+    <attr name="clb_icon_info_height" format="dimension" />
+
+    <attr name="clb_text_max_character" format="integer" />
+    <attr name="clb_text" format="string|reference" localization="suggested" />
+    <attr name="clb_hint" format="string|reference" localization="suggested" />
+    <attr name="clb_error_message" format="string|reference" localization="suggested" />
+    <!--CLB EDITTEXT ATTR END-->
+
+    <!--CLBEditText Start-->
+    <declare-styleable name="CLBEditText">
+        <attr name="c_card_elevation" />
+        <attr name="c_card_corner_radius" />
+        <attr name="c_card_background_color" />
+        <attr name="c_card_use_compat_padding" />
+
+        <attr name="android:imeOptions" />
+        <attr name="android:inputType" />
+
+        <attr name="clb_single_line" />
+        <attr name="clb_text_max_character" />
+
+        <attr name="clb_text_size" />
+        <attr name="clb_hint_size" />
+
+        <attr name="clb_hint_text_color" />
+        <attr name="clb_text_color" />
+        <attr name="clb_error_color" />
+        <attr name="clb_success_color" />
+
+        <attr name="clb_icon_left" />
+        <attr name="clb_icon_left_tint_color" />
+        <attr name="clb_icon_left_width" />
+        <attr name="clb_icon_left_height" />
+
+        <attr name="clb_is_clear_icon" />
+        <attr name="clb_icon_clear" />
+        <attr name="clb_icon_clear_tint_color" />
+        <attr name="clb_icon_clear_width" />
+        <attr name="clb_icon_clear_height" />
+
+        <attr name="clb_is_left_clear_icon" />
+        <attr name="clb_icon_left_clear" />
+        <attr name="clb_left_icon_clear_tint_color" />
+        <attr name="clb_left_icon_clear_width" />
+        <attr name="clb_left_icon_clear_height" />
+
+        <attr name="clb_is_info_icon" />
+        <attr name="clb_icon_info" />
+        <attr name="clb_icon_info_tint_color" />
+        <attr name="clb_icon_info_width" />
+        <attr name="clb_icon_info_height" />
+
+        <attr name="clb_text" />
+        <attr name="clb_hint" />
+        <attr name="clb_error_message" />
+    </declare-styleable>
+    <!--CLBEditText End-->
+
+    <!--CLBEditTextBF Start-->
+    <declare-styleable name="CLBEditTextBF">
+        <attr name="android:imeOptions" />
+        <attr name="android:inputType" />
+
+        <attr name="clb_single_line" />
+        <attr name="clb_text_max_character" />
+
+        <attr name="clb_text_size" />
+        <attr name="clb_hint_size" />
+        <attr name="cbf_floating_text_size" format="dimension" />
+
+        <attr name="cbf_background_color" format="color|reference" />
+
+        <attr name="clb_hint_text_color" />
+        <attr name="clb_text_color" />
+        <attr name="clb_error_color" />
+        <attr name="cbf_floating_text_color" format="color|reference" />
+
+        <attr name="clb_icon_left" />
+        <attr name="clb_icon_left_tint_color" />
+        <attr name="clb_icon_left_width" />
+        <attr name="clb_icon_left_height" />
+
+        <attr name="clb_is_clear_icon" />
+        <attr name="clb_icon_clear" />
+        <attr name="clb_icon_clear_tint_color" />
+        <attr name="clb_icon_clear_width" />
+        <attr name="clb_icon_clear_height" />
+
+        <attr name="clb_is_left_clear_icon" />
+        <attr name="clb_icon_left_clear" />
+        <attr name="clb_left_icon_clear_tint_color" />
+        <attr name="clb_left_icon_clear_width" />
+        <attr name="clb_left_icon_clear_height" />
+
+        <attr name="clb_is_info_icon" />
+        <attr name="clb_icon_info" />
+        <attr name="clb_icon_info_tint_color" />
+        <attr name="clb_icon_info_width" />
+        <attr name="clb_icon_info_height" />
+
+        <attr name="clb_text" />
+        <attr name="clb_hint" />
+        <attr name="clb_error_message" />
+        <attr name="cbf_floating_text" format="string|reference" localization="suggested" />
+    </declare-styleable>
+    <!--CLBEditTextBF End-->
+
+    <!--CLBCardSpinner Start-->
+    <declare-styleable name="CLBCardSpinner">
+        <attr name="c_card_elevation" />
+        <attr name="c_card_corner_radius" />
+        <attr name="c_card_background_color" />
+        <attr name="c_card_use_compat_padding" />
+        <attr name="c_card_selectable_foreground" />
+
+        <attr name="c_card_icon_left" />
+        <attr name="c_card_icon_left_tint_color" />
+        <attr name="c_card_icon_left_width" />
+        <attr name="c_card_icon_left_height" />
+
+        <attr name="c_card_icon_right" />
+        <attr name="c_card_icon_right_tint_color" />
+        <attr name="c_card_icon_right_width" />
+        <attr name="c_card_icon_right_height" />
+
+        <attr name="card_s_text_color" format="color|reference" />
+        <attr name="card_s_error_color" format="color|reference" />
+        <attr name="card_s_text_size" format="dimension" />
+
+        <attr name="card_s_text" format="string|reference" localization="suggested" />
+        <attr name="card_s_error_message" format="string|reference" localization="suggested" />
+
+    </declare-styleable>
+    <!--CLBCardSpinner End-->
+
+    <!--CLBCardLabel Start-->
+    <declare-styleable name="CLBCardLabel">
+        <attr name="c_card_elevation" />
+        <attr name="c_card_corner_radius" />
+        <attr name="c_card_background_color" />
+        <attr name="c_card_use_compat_padding" />
+        <attr name="c_card_selectable_foreground" />
+        <attr name="android:gravity" /> <!--NOW JUST RIGHT TEXTVIEW-->
+
+        <attr name="c_card_icon_left" />
+        <attr name="c_card_icon_left_tint_color" />
+        <attr name="c_card_icon_left_width" />
+        <attr name="c_card_icon_left_height" />
+
+        <attr name="c_card_icon_right" />
+        <attr name="c_card_icon_right_tint_color" />
+        <attr name="c_card_icon_right_width" />
+        <attr name="c_card_icon_right_height" />
+
+        <attr name="card_l_left_text" format="string|reference" localization="suggested" />
+        <attr name="card_l_right_text" format="string|reference" localization="suggested" />
+
+        <attr name="card_l_left_text_color" format="color|reference" />
+        <attr name="card_l_right_text_color" format="color|reference" />
+
+        <attr name="card_l_left_text_size" format="dimension" />
+        <attr name="card_l_right_text_size" format="dimension" />
+
+    </declare-styleable>
+    <!--CLBCardLabel End-->
+
+    <!--CLBCardSelectionView Start-->
+    <declare-styleable name="CLBCardSelectionView">
+        <attr name="card_sv_corner_radius" format="dimension" />
+
+        <attr name="card_title" format="string|reference" localization="suggested" />
+        <attr name="card_action_title" format="string|reference" localization="suggested" />
+        <attr name="card_error_text" format="string|reference" localization="suggested" />
+    </declare-styleable>
+    <!--CLBCardSelectionView End-->
+    <!--CLB COMPONENTS END-->
+
+</resources>

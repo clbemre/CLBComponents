@@ -9,7 +9,7 @@ import clb.com.clbview.R
 import clb.com.clbview.views.clbbutton.CLBButton
 
 /**
- * Created by bt on 6/22/18. cLB
+ * Created by EMRE CELEBI on 6/22/18. cLB
  */
 class PrimaryButton : CLBButton {
 

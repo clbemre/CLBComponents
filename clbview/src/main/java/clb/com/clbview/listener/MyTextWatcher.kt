@@ -4,7 +4,7 @@ import android.text.Editable
 import android.text.TextWatcher
 
 /**
- * Created by bt on 3/9/18. cLB
+ * Created by EMRE CELEBI on 3/9/18. cLB
  */
 interface MyTextWatcher : TextWatcher {
 

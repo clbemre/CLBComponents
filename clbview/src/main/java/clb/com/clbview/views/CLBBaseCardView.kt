@@ -12,7 +12,7 @@ import android.widget.LinearLayout
 import clb.com.clbview.R
 
 /**
- * Created by bt on 7/19/18. cLB
+ * Created by EMRE CELEBI on 7/19/18. cLB
  */
 open class CLBBaseCardView : LinearLayout {
 

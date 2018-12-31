@@ -3,7 +3,7 @@ package clb.com.clbview.listener;
 import android.animation.Animator;
 
 /**
- * Created by bt on 5/7/18. cLB
+ * Created by EMRE CELEBI on 5/7/18. cLB
  */
 
 public class MyAnimatorListener implements Animator.AnimatorListener {

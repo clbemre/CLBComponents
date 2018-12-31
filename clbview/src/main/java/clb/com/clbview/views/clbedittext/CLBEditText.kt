@@ -33,7 +33,7 @@ import clb.com.clbview.views.clbdialog.clbWarningDialog
 
 
 /**
- * Created by bt on 3/15/18. cLB
+ * Created by EMRE CELEBI on 3/15/18. cLB
  */
 class CLBEditText : CLBBaseCardView {
 

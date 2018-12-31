@@ -1,7 +1,7 @@
 package clb.com.clbview.helper;
 
 /**
- * Created by bt on 7/10/18. cLB
+ * Created by EMRE CELEBI on 7/10/18. cLB
  */
 
 import android.graphics.Paint;

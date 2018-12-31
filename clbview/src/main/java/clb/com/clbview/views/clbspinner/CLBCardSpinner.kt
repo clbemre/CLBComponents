@@ -22,7 +22,7 @@ import clb.com.clbview.views.CLBBaseCardView
 
 
 /**
- * Created by bt on 3/15/18. cLB
+ * Created by EMRE CELEBI on 3/15/18. cLB
  * BU Component'e eğer setDropDown ardından showPopup methodu tetiklenirse spinner  gbi çalıştırabilir, yada direk listener ile ekranda istediğiniz birşeyi gösterebilirsiniz.
  */
 class CLBCardSpinner : CLBBaseCardView {

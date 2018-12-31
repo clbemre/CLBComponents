@@ -22,7 +22,7 @@ import clb.com.clbview.views.CLBBaseCardView
 
 
 /**
- * Created by bt on 3/15/18. cLB
+ * Created by EMRE CELEBI on 3/15/18. cLB
  * Default values are its my default values, please change it as you like default values.
  */
 class CLBCardLabel : CLBBaseCardView {

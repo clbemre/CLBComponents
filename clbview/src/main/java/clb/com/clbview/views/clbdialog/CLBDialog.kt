@@ -19,7 +19,7 @@ import clb.com.clbview.listener.MyAnimationListener
 import kotlinx.android.synthetic.main.dialog_clb_container.*
 
 /**
- * Created by bt on 3/12/18. cLB
+ * Created by EMRE CELEBI on 3/12/18. cLB
  */
 class CLBDialog private constructor(context: Context,
                                     private var title: String?,
